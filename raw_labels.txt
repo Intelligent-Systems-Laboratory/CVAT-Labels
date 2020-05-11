@@ -1,0 +1,82 @@
+[
+    {
+        "name": "vehicle",
+        "attributes": [
+            {
+                "name": "type",
+                "input_type": "select",
+                "mutable": false,
+                "values": [
+                    "ignore",
+                    "car",
+                    "suv",
+                    "van",
+                    "taxi",
+                    "truck",
+                    "motorcycle",
+                    "bicycle",
+                    "tricycle",
+                    "jeep",
+                    "bus"
+                ]
+            },
+            {
+                "name": "desc_1",
+                "input_type": "select",
+                "mutable": false,
+                "values": [
+                    "none",
+                    "suv_private",
+                    "suv_public",
+                    "van_private",
+                    "van_public",
+                    "taxi_car",
+                    "taxi_suv",
+                    "truck_delivery",
+                    "truck_container",
+                    "tric_motor",
+                    "tric_pedicab",
+                    "jeep_old",
+                    "jeep_modern"
+                ]
+            },
+            {
+                "name": "FOV",
+                "input_type": "radio",
+                "mutable": true,
+                "values": [
+                    "front",
+                    "side",
+                    "back"
+                ]
+            },
+            {
+                "name": "lighting_condition",
+                "input_type": "select",
+                "mutable": false,
+                "values": [
+                    "daytime",
+                    "nighttime"
+                ]
+            },
+            {
+                "name": "weather",
+                "input_type": "select",
+                "mutable": false,
+                "values": [
+                    "dry",
+                    "wet"
+                ]
+            },
+            {
+                "name": "glare",
+                "input_type": "radio",
+                "mutable": true,
+                "values": [
+                    "false",
+                    "true"
+                ]
+            }
+        ]
+    }
+]
