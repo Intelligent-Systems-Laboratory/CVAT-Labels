@@ -42,7 +42,7 @@
             },
             {
                 "name": "FOV",
-                "input_type": "radio",
+                "input_type": "select",
                 "mutable": true,
                 "values": [
                     "front",
@@ -70,7 +70,7 @@
             },
             {
                 "name": "glare",
-                "input_type": "radio",
+                "input_type": "select",
                 "mutable": true,
                 "values": [
                     "false",
