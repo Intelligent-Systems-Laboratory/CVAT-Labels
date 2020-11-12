@@ -1,6 +1,7 @@
 [
     {
         "name": "vehicle",
+        "color": "#33ddff",
         "attributes": [
             {
                 "name": "type",
